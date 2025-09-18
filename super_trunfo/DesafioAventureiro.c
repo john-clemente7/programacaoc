@@ -59,9 +59,10 @@
         printf("Digite o numero de pontos turisticos: \n");
         scanf("%d", &num_pontos_turisticos2);
 
-        dens_Pop1 = populacao_1 / area_cidade1;
+        dens_Pop1 = populacao_1 / area_cidade1; //calcular densidade populacional
         dens_Pop2 = populacao_2 / area_cidade2;
-        pib_percapita1 = pib_1 / populacao_1;
+        
+        pib_percapita1 = pib_1 / populacao_1; //calcular PIB per Capita
         pib_percapita2 = pib_2 / populacao_2;
 
         system("clear");
